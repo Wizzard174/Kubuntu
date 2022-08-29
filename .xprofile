@@ -1,0 +1,6 @@
+setxkbmap cz,us -option grp:alt_shift_toggle
+/home/wizzard174/.config/polybar/launch.sh --forest
+xrandr --output HDMI-A-1 --auto --left-of HDMI-A-0 --auto --primary &
+picom --experimental-backends --backend glx &
+feh --bg-fill /home/wizzard174/Obrázky/Wallpaper/02.png /home/wizzard174/Obrázky/Wallpaper/girl.jpg &
+udiskie -N &
