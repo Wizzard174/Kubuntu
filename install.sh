@@ -5,5 +5,5 @@ cp -r Wallpaper ~/Obrázky
 cp .vimrc ~/.vimrc
 cp .xprofile ~/.xprofile
 cp .icons ~/.icons
-sudo cp icons/* /usr/share/icons
-sudo cp lightdm/* /etc/lightdm
+sudo cp -r icons/* /usr/share/icons
+sudo cp -r lightdm/* /etc/lightdm
